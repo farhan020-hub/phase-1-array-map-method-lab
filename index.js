@@ -19,8 +19,8 @@ const titleCased = () => {
       const letters = name.split(' ');
 
      
-      const titleCaseletters = letters.map(word => {
-        return word.charAt(0).toUpperCase() + word.slice(1);
+      const titleCaseletters = letters.map(letters => {
+        return letters.charAt(0).toUpperCase() + letters.slice(1);
       });
 
      
